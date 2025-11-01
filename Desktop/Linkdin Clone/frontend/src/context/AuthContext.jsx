@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // The API_BASE logic has been corrected to point to the base URL /api,
 // and the /auth endpoint is built from it.
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_BASE = 'https://linkdinclone-1.onrender.com/api';
 const API_AUTH_URL = `${API_BASE}/auth`; 
 
 const AuthContext = createContext();
