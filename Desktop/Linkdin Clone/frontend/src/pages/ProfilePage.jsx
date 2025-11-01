@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
 import PostCard from '../components/PostCard.jsx';
 
-const API_BASE = '/api';
+const API_BASE = 'https://linkdinclone-1.onrender.com/api';
 const API_POSTS_URL = `${API_BASE}/posts/me`; // Endpoint to fetch current user's posts
 const API_PROFILE_URL = `${API_BASE}/profile/me`; // Endpoint to fetch current user's profile
 
